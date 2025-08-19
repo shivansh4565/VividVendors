@@ -1,7 +1,7 @@
 import React from "react";
 import { IoMdClose } from "react-icons/io";
 import { useNavigate } from "react-router-dom";
-import CartContents from "../Cart/CartContents"; // Fix import name
+import CartContents from "../Cart/Cartcontents"; // Fix import name
 const CardDrawer = ({ drawerOpen, toggleCartDrawer }) => {
     const navigate = useNavigate();
 
